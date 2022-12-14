@@ -1,0 +1,27 @@
+.about-me-content {
+    position: relative;
+    top: -8rem;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: var(--gap);
+    height: 100vh;
+}
+
+.about-me-text-content, .about-me-img {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.about-me-text-content h2 {
+    font-size: 8rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+.about-me-img img {
+    margin-top: 55px;
+    max-width: 50%;
+    height: auto;
+}
