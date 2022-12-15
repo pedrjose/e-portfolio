@@ -4,7 +4,7 @@
     display: grid;
     grid-template-columns: 1fr 1.5fr;
     gap: var(--gap);
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .about-me-text-content, .about-me-img {
@@ -23,5 +23,5 @@
 .about-me-img img {
     margin-top: 55px;
     max-width: 50%;
-    height: auto;
+    min-height: auto;
 }

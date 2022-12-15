@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -15,31 +15,39 @@
     <link rel="stylesheet" href="./assets/css/pclass.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/about-me.css">
+    <link rel="stylesheet" href="./assets/css/goals.css">
+    <link rel="stylesheet" href="./assets/css/skills.css">
 </head>
 
 <body>
+
+    <!-- Cabeçalho do menu principal -->
     <aside>
         <div class="menu menu-content">
             <h1><a href="#">pedrjose</a></h1>
             <nav>
                 <ul>
-                    <li><a href="#">About Me</a></li>
-                    <li><a href="#">Goals</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#about-me">About Me</a></li>
+                    <li><a href="#goals">Goals</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
                     <li><a href="#">Find Me</a></li>
                 </ul>
             </nav>
         </div>
     </aside>
+
+    <!-- Espaçamento -->
     <div class="menu-spacing"></div>
 
-    <section class="main-bg section-settings">
+    
+    <!-- Seção ABOUT ME da landing page -->
+    <section id="about-me" class="main-bg section-settings">
         <div class="main-content about-me-content">
             <div class="about-me-text-content">
                 <h2>About Me</h2>
                 <p>Hi human, welcome to my e-Portfolio. This is a space to know a little more about me, professionally and personally. First, let me introduce myself: my name is Pedro, I'm 22 years old. My pronouns are he/him and currently I'm in 6th period of Science Computer Graduating.
-                    <br/> <br/> This page is my first HTML/CSS project. Hope you enjoy!</p>
+                This page is my first HTML/CSS project. Hope you enjoy!</p>
             </div>
             <div class="about-me-img">
                 <img src="assets/img/pic-con.svg" alt="Pic Profile Icon">
@@ -47,8 +55,44 @@
         </div>
     </section>
 
-    <section class="white-bg section-settings">
+    <!-- Seção GOALS da landing page -->
+    <section id="goals" class="white-bg section-settings">
+        <div class="main-content goals-content">
+            <h2>Goals</h2>
+            <p>I always look to be part of projects that challenge me. I like to contribute to the professional environment, giving my contributions, solving problems and helping my work partners.</p>
+            <p>I have a good profile for teamwork. I know how to listen and I also know how to lead when needed. I have experience with leadership since I was president of a Rotaract Club, between 2021 and 2022.</p>
+            <p>Finally, I would like to grow professionally and help the people around me to grow professionally too!</p>
+        </div>
+    </section>
 
+    <!-- Seção SKILLS da landing page -->
+    <section id="skills" class="skills skills-bg section-settings">
+        <div class="main-content skills-content">
+            <h2>Skills</h2>
+            <p>Technologies I study/work, or have studied/worked.</p>
+            <div class="grid">
+                <article>
+                    <h3>Development</h3>
+                    <p>Python, C, Java (OOP), JavaScript, Git/GitHub, HTML/CSS, SQL.</p>
+                </article>
+                <article>
+                    <h3>Design and Modeling</h3>
+                    <p>Figma, StarUML, JFLAP, GIMP, Inkscape, Kdenlive.</p>
+                </article>
+                <article>
+                    <h3>Personal Organization</h3>
+                    <p>Trello, G Suite, Notion.</p>
+                </article>
+
+        </div>
+        </div>
+    </section>
+
+    <!-- Seção HOBBIES da landing page -->
+    <section id="hobbies" class="white-bg section-settings">
+        <div class="main-content">
+            <h2>Hobbies</h2>
+        </div>
     </section>
 
 </body>

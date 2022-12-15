@@ -1,0 +1,8 @@
+.goals-content {
+    max-width: 80rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    height: 100vh;
+}
