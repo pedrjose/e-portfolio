@@ -96,3 +96,25 @@
 }
 
 /* Configurar MEDIAS QUERIES */
+@media (max-width: 800px) {
+    .about-me-content {
+        grid-template-columns: 1fr;
+    }
+
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .card-img img {
+        max-width: 18rem;
+        max-height: 18rem;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .about-me-text-content h2 {
+        font-size: 4rem;
+        margin-top: 8rem;
+    }
+}

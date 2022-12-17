@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 html {
@@ -12,6 +12,8 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 2rem;
     line-height: 1.5;
+    overflow-x: hidden;
+    background-size: cover;
 
 }
 
@@ -58,4 +60,11 @@ p {
 
 ul {
     margin-right: 1.5rem;
+}
+
+@media (max-width: 800px) {
+    h2 {
+        font-size: 4rem;
+    }
+
 }
