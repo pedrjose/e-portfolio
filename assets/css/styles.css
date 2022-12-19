@@ -7,7 +7,8 @@
     min-height: 100vh;
 }
 
-.about-me-text-content, .about-me-img {
+.about-me-text-content,
+.about-me-img {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -91,19 +92,19 @@
 }
 
 .card-img img:hover {
-    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
-    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
 }
 
+
 /* Configurar MEDIAS QUERIES */
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     .about-me-content {
         grid-template-columns: 1fr;
     }
 
     .grid {
         grid-template-columns: repeat(1, 1fr);
-
     }
 
     .card-img img {
@@ -117,4 +118,7 @@
         font-size: 4rem;
         margin-top: 8rem;
     }
+
+    /* Ajustando o cabeçalho do menu para mobile */
+    
 }

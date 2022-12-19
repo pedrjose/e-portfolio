@@ -49,3 +49,10 @@
     width: 50%;
     left: 25%;
 }
+
+@media (max-width: 900px) {
+    .menu-items {
+        display: none;
+    }
+
+}
